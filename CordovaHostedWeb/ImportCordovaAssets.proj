@@ -12,17 +12,17 @@
   <Target Name="Import">
     <Copy
           SourceFiles="@(CordovaAndroidAssets)"
-          DestinationFolder="cordovaDist\android\%(RecursiveDir)"
+          DestinationFolder="cordovadist\android\%(RecursiveDir)"
         />
 
     <Copy
           SourceFiles="@(CordovaiOSAssets)"
-          DestinationFolder="cordovaDist\ios\%(RecursiveDir)"
+          DestinationFolder="cordovadist\ios\%(RecursiveDir)"
         />
     
   <Copy
           SourceFiles="@(CordovaWindowsAssets)"
-          DestinationFolder="cordovaDist\windows\%(RecursiveDir)"
+          DestinationFolder="cordovadist\windows\%(RecursiveDir)"
         />
 
   </Target>
