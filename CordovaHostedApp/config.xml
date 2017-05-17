@@ -14,7 +14,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://localhost:56056" />
+    <allow-navigation href="http://www.absolute.de" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
